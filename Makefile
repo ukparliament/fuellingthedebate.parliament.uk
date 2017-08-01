@@ -19,4 +19,4 @@ deploy_to_release:
 		--exclude ".git/*" \
 		--exclude "Makefile" \
 		--exclude "README.md" \
-		--acl=public-read --delete . s3://$(AWS_ACCOUNT).fuellingthedebate.parliament.uk
+		--acl=public-read --delete . s3://$(AWS_ACCOUNT).fuelling-the-debate

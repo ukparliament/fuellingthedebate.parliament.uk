@@ -5,7 +5,7 @@ pipelines:
     materials:
       fuelling-the-debate-git:
         git: https://github.com/ukparliament/fuellingthedebate.parliament.uk.git
-        branch: master
+        branch: development
         auto_update: true
     stages:
       - deploy:

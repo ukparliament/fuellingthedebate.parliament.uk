@@ -32,6 +32,7 @@
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-15845045-19', 'auto');
+    ga('set', 'anonymizeIp', true);
     ga('send', 'pageview');
 
 

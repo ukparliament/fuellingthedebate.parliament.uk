@@ -23,3 +23,4 @@ environments:
   Web.DEVCI:
     pipelines:
       - fuelling-the-debate
+      
